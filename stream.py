@@ -78,3 +78,16 @@ if uploaded_file:
             ax.set_title("ROC Curve")
             ax.legend()
             st.pyplot(fig)
+
+
+# do a plot of a 2D function
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+
+st.pyplot()
