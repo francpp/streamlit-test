@@ -10,7 +10,7 @@ import seaborn as sns
 
 # Streamlit App
 st.title("Interactive Machine Learning Classifier")
-
+st.write("This app trains a classifier on the selected dataset and displays the evaluation metrics.")
 # 1. File Upload
 st.sidebar.header("Upload Dataset")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
